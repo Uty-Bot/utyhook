@@ -77,30 +77,19 @@ export function Footer() {
   return (
     <Container>
       <BrandContainer>
-        {monochromeLogo}
-        <BrandName>Discohook</BrandName>
+        <BrandName>UtyHook</BrandName>
       </BrandContainer>
       <Tagline>
         The easiest way to build and send Discord messages with embeds using
         webhooks.
       </Tagline>
-      <Info>Email: &quot;hello&quot; at discohook.app</Info>
       <NavigationList>
-        <NavigationItem href="/discord" target="_blank">
-          Discord Support Server
-        </NavigationItem>
-        <NavigationItem href="/bot" target="_blank">
-          Discord Bot
-        </NavigationItem>
         <NavigationItem href="https://git.io/discohook" target="_blank">
           Source Code
         </NavigationItem>
-        <NavigationItem href="https://patreon.com/discohook" target="_blank">
-          Support Discohook
-        </NavigationItem>
       </NavigationList>
       <LegalInfo>
-        &copy; 2020 The Discohook Authors. Discohook is not affiliated with
+        &copy; 2020 The UtyHook Authors. UtyHook is not affiliated with
         Discord.
       </LegalInfo>
       <LegalInfo>

@@ -146,7 +146,7 @@ export function Header<T extends string>(props: HeaderProps<T>) {
 
   return (
     <Container>
-      <Logo>{theme.appearance.color === "dark" ? darkLogo : lightLogo}</Logo>
+      <img src="../../static/icon-256.png" alt="Logo" width="32" height="32"></img>
       {tabs && <HeaderTabs {...tabs} />}
       <Dim style={dimStyle} onClick={() => setExpanded(false)} />
       <Navigation style={navigationStyle} onClick={() => setExpanded(false)}>

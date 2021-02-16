@@ -78,7 +78,7 @@ export function PageHead(props: PageHeadProps) {
         property="og:description"
         content={description}
       />
-      <meta key="og:site_name" property="og:site_name" content="Discohook" />
+      <meta key="og:site_name" property="og:site_name" content="UtyHook" />
       <link
         key="canonical"
         rel="canonical"
@@ -90,7 +90,7 @@ export function PageHead(props: PageHeadProps) {
       <meta
         key="application-name"
         name="application-name"
-        content="Discohook"
+        content="UtyHook"
       />
       <meta key="theme-color" name="theme-color" content="#58b9ff" />
       <meta key="color-scheme" name="color-scheme" content="dark light" />

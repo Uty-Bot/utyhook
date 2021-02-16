@@ -73,9 +73,6 @@ export function ErrorPage(props: ErrorPageProps) {
       <Header>{message}</Header>
       <Message>
         If you didn&apos;t expect this, please report it on the{" "}
-        <a href="/discord" target="blank" rel="noopener">
-          Discord support server
-        </a>
         , or create an issue on the{" "}
         <a
           href="https://github.com/discohook/site"

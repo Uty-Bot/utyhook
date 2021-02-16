@@ -76,7 +76,7 @@ export default function Main(props: MainProps) {
   return useObserver(() => (
     <EditorManagerProvider value={editorManager}>
       <PageHead
-        title="Discohook"
+        title="UtyHook"
         description="The easiest way to build and send Discord messages with embeds using webhooks."
       >
         <meta key="referrer" name="referrer" content="strict-origin" />
@@ -84,8 +84,6 @@ export default function Main(props: MainProps) {
       <Container>
         <Header
           items={[
-            { name: "Support Server", to: "/discord", newWindow: true },
-            { name: "Discord Bot", to: "/bot", newWindow: true },
             { name: "Settings", handler: spawnSettingsModal },
           ]}
           tabs={
